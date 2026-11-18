@@ -9,3 +9,134 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+section {
+    padding: 50px 0;
+}
+
+header {
+    background-color: white;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.overview-hero-image,
+.overview-hero-text {
+    flex: 1;
+}
+
+.overview-hero-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.learn-about .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.learn-about .card img {
+    display: block;
+    width: 100%;
+}
+
+.learn-about .card-body {
+    display: block;
+}
+
+.testing .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.testing-desciption {
+    flex: 1;
+}
+
+.cards {
+    gap: 25px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    margin: 0 0 10px;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+.testing .cta {
+    margin-left: 40px;
+}
+
+.stories article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.stories h2 {
+    margin: 0 0 30px;
+}
+
+.stories article img {
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.stories .article-body {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter .form-group {
+    margin-right: 10px;
+}
+
+.newsletter h3 {
+    margin: 0 0 10px;
+}
+
+.newsletter p {
+    margin: 0 0 20px;
+}
+
+footer {
+    padding: 25px 0;
+}
